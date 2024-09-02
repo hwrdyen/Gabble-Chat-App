@@ -1,11 +1,15 @@
 import "./style.scss";
-import Register from "./pages/Register";
+import List from "./components/list/List";
+import Chat from "./components/chat/Chat";
+import Detail from "./components/detail/Detail";
 
 function App() {
   return (
-    <>
-      <Register />
-    </>
+    <div className="container">
+      <List />
+      <Chat />
+      <Detail />
+    </div>
   );
 }
 
